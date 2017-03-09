@@ -1,1 +1,1 @@
-Resolución y copia de los ejercicios propuestos en https://www.tutorialesprogramacionya.com/javaya/index.php
+Resolución y copia de los ejercicios propuestos en https://www.tutorialesprogramacionya.com/javaya/
