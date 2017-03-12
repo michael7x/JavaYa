@@ -1,0 +1,35 @@
+/*Realizar un programa que lea cuatro valores numéricos e informar su suma y promedio 
+  
+ de https://www.tutorialesprogramacionya.com/javaya/detalleconcepto.php?punto=6&codigo=79&inicio=0
+ */
+import java.util.Scanner;
+
+public class SumayPromedio {
+	
+	public static void main(String[] args){
+		
+		Scanner teclado = new Scanner(System.in);
+		int num1, num2, num3, num4, suma;
+		double promedio;
+		
+		System.out.print("Por favor ingrese el número 1: ");
+		num1 = teclado.nextInt();
+		
+		System.out.print("Por favor ingrese el número 2: ");
+		num2 = teclado.nextInt();
+		
+		System.out.print("Por favor ingrese el número 3: ");
+		num3 = teclado.nextInt();
+		
+		System.out.print("Por favor ingrese el número 4: ");
+		num4 = teclado.nextInt();
+		
+		suma = num1 + num2 + num3 + num4;
+		promedio = (num1 + num2 + num3 + num4)/4;
+		
+		System.out.println("La suma de los números ingresados es " + suma);		
+		System.out.println("La suma de los números ingresados es " + promedio);
+		
+	}
+
+}
