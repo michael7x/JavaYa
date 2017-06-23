@@ -1,3 +1,5 @@
+/*Agregar un método a la clase Pila que retorne la información del primer nodo de la Pila sin borrarlo.*/
+
 package capitulo42;
 
 public class Pila3 {
